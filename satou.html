@@ -4,29 +4,72 @@
         <meta charset="utf-8">
         <title>紹介ページ</title>
         <style>
-            body {
-                margin: 0;
-                padding: 0;
-                background-color: #cccccc;
-                color: #333333;
-                font-size: 15px;
-                line-height: 2;
-            }
             #wrap {
                 clear: both;
                 background: #ffffff;
-                margin-top: 220px;
                 padding: 35px 0;
+            }
+            h1{
+                font-family: georgia,serif;
+                font-size: 36px;
+                border-bottom: 1px solid #cccccc;
+            }
+            h2{
+                font-family: georgia,serif;
+                font-size: 24px;
+            }
+            p,h1,h2,h3,h4,h5,h6 {
+                margin-top: 0;
+            }
+            .content {
+                width: 960px;
+                margin: 0 auto;
+            }
+            .main-center{
+                width: 940px;
+                margin: 0 auto;
+            }
+            .icon:before{
+                content: "";
+                padding-right: 10px;
+                border-left: 7px solid #9cd4a4;
+            }
+            #about .profile-txt{
+                width: 540px;
+            }
+
+            .flex{
+                display: flex;
+                margin-bottom: 35px;
+            }
+            img {
+                vertical-align:bottom;
+                width: 40%;
+                height: 40%;
+            }
+            #about .profile-img{
+                margin-left: auto;
             }
         </style>
     </head>
     <body id="about">
         <div id="wrap">
-        <h1>佐藤有晟</h1><br><br>
-        <h2>出身地</h2><br>
-        <p>岩手県盛岡市</p><br><br>
-        <h2>趣味・特技</h2><br>
-        <p>ゲーム</p>
+            <div class="contents">
+                <div class="main-center">
+                <h1>Profile</h1><br>
+                <section class="flex">
+                    <div class="profile-txt">
+                        <h2 class="icon">名前</h2>
+                        <p>佐藤有晟</p><br>
+                        <h2 class="icon">出身地</h2>
+                        <p>岩手県盛岡市</p><br>
+                        <h2 class="icon">趣味・特技</h2>
+                        <p>ゲーム</p>
+                    </div>
+                    <img src="img/videogame_boy.png" alt="game画像" class="profile-img"> 
+                </section>
+                </div>
+            </div>
         </div>
     </body>
 </html>
