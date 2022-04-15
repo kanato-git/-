@@ -1,0 +1,47 @@
+@charset "utf-8";
+h1{
+	width : 70%;
+	
+	border-bottom : solid 6px aqua;
+	text-align : center;
+	margin : 0 auto;
+	padding : 15px;
+}
+
+img{
+	heigth : 50px;
+	width : 250px;
+	border : solid 10px white;
+}
+
+body{
+	background : black;
+	width : 70%;
+	text-align : center;
+	margin : 0 auto;	
+}
+
+.one{
+	font-size : 40px;
+	color : red;
+}
+
+.two{
+	font-weight : bold;
+	font-family : "HG創英角ﾎﾟｯﾌﾟ体","HGP教科書体",serif;
+}
+
+.box11{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #5d627b;
+    background: white;
+    border-top: solid 5px #5d627b;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+.box11 p {
+    margin: 0; 
+    padding: 0;
+}
+
+
