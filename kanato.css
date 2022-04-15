@@ -1,0 +1,113 @@
+@charset "utf8";
+
+.profile{
+    text-align: center;
+    font-size: 30px;
+    color: grey;
+}
+
+.head,.text{
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: 5px;
+}
+
+#top{
+    padding-top: 10px;
+}
+#end{
+    padding-bottom: 5px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 100px;
+    column-gap: 10px;
+    row-gap: 1em;
+}
+
+.box1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border-radius: 20px;
+    background-color: #fff0cd;
+}
+
+.box2 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 6;
+    border-radius: 20px;
+    background-color: #0f0f;
+    background-image: url(img/MHRise.png);
+}
+
+.box3 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 6;
+    border-radius: 20px;
+    background-color: #0fff;
+}
+
+.box4 {
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 6;
+    border-radius: 20px;
+    border: #00f9f0 solid 4px;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+.box2:hover{
+    background-image: url(img/MHRiseSunbreak.jpg);
+}
+
+
+.box2_text{
+    color: #ffff00;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.box3 {
+    grid-column-start: 2;
+    grid-row-start: 3;
+    grid-row-end: 6;
+    border-radius: 20px;
+    background-color: #00f9f0;
+    /* background-image: url(img/); */
+}
+
+.box3_head{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.box3_text{
+    /* font-weight: bold; */
+    font-size: 30px;
+}
+
+.box4{
+    background-image: url(img/time\ \(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box4_text{
+    font-weight: bold;
+    font-size: 30px;
+}
