@@ -44,7 +44,7 @@
     grid-row-end: 6;
     border-radius: 20px;
     background-color: #0f0f;
-    background-image: url(img/MHRise.png);
+    background-image: url(kanatoimg/MHRise.png);
 }
 
 .box3 {
@@ -72,7 +72,7 @@ a{
 }
 
 .box2:hover{
-    background-image: url(img/MHRiseSunbreak.jpg);
+    background-image: url(kanatoimg/MHRiseSunbreak.jpg);
 }
 
 
@@ -102,7 +102,7 @@ a{
 }
 
 .box4{
-    background-image: url(img/time\ \(1\).png);
+    background-image: url(kanatoimg/time\ \(1\).png);
     background-position: center;
     background-repeat: no-repeat;
 }
