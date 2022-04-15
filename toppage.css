@@ -1,0 +1,60 @@
+@charset "utf8";
+body{
+    background-image: url(img/mizuirohaikeiy1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #ffff;
+}
+
+.inner{
+    margin-top: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.inner a{  text-align: center;
+    width:300px;
+    height: 300px;
+    font-size: 12px;
+    border-radius: 50%;
+    border: 1px solid #444444;
+}
+
+.name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.kanatoicon{
+    background-image: url(topimg/kanatoicon.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.syunicon{
+    background-image: url(topimg/shunicon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.yutaroicon{
+    background-image: url(topimg/yutaroicon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.yuseiicon{
+    background-image: url(topimg/yuseiicon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+.name p{
+    font-weight: bold;
+    font-size: 20px;
+}
